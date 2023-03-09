@@ -1,17 +1,17 @@
-
+п»ї
 #include "Header.h"
 
 
 void main_menu()
 {
 
-	char exit; //метка для выхода из цикла
+	char exit; //РјРµС‚РєР° РґР»СЏ РІС‹С…РѕРґР° РёР· С†РёРєР»Р°
 
 	while (true) 
 	{
 
 
-		char choice; //номер семинара
+		char choice; //РЅРѕРјРµСЂ СЃРµРјРёРЅР°СЂР°
 		cout << "Enter number of task from 1 to 3" << endl
 		 << " 1. Work with one-dimensional array" << endl
 			<< " 2. Work with integer square matrix" << endl
@@ -20,7 +20,7 @@ void main_menu()
 	
 
 
-		if (choice < '1' || choice > '3') // проверка правиильности ввода  номера семинара
+		if (choice < '1' || choice > '3') // РїСЂРѕРІРµСЂРєР° РїСЂР°РІРёРёР»СЊРЅРѕСЃС‚Рё РІРІРѕРґР°  РЅРѕРјРµСЂР° СЃРµРјРёРЅР°СЂР°
 		{
 			cout << "Error, enter number in range from 1 to 3" << endl;
 			cin >> choice;
@@ -43,7 +43,7 @@ void main_menu()
 			}
 		}
 
-		cout << endl << "Type E if you want  to exit, or any key to return to main menu->"; // выход из программы
+		cout << endl << "Type E if you want  to exit, or any key to return to main menu->"; // РІС‹С…РѕРґ РёР· РїСЂРѕРіСЂР°РјРјС‹
 		cin >> exit;
 		if (exit == 'E' || exit == 'e') 
 		{
