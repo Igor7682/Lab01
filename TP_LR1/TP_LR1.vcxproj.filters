@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Part one">
+      <UniqueIdentifier>{1d88cecd-9c2d-4c7a-b916-d8f6d162c471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Part two">
+      <UniqueIdentifier>{3f5762d3-e1a0-47ad-8a6c-144bf633a37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Part three">
+      <UniqueIdentifier>{6ecb9cbb-2c1c-4dba-9ec4-ffb33c25e7cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="odd_sum.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="odd_amount.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="part_one_menu.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="size_check.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="arr_ent.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="part_one_task_one.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="part_one_task_two.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_btw_neg.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="find_first_neg.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="find_last_neg.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="neg_num_check.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="arr_show.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="compress.cpp">
+      <Filter>Исходные файлы\Part one</Filter>
+    </ClCompile>
+    <ClCompile Include="part_two_menu.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="matr_size_check.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="matr_ent.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="matr_show.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="matr_neg_check.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="part_two_task_one.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="line_prod.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="diag_sum.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="diag_sum_max.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="part_two_task_two.cpp">
+      <Filter>Исходные файлы\Part two</Filter>
+    </ClCompile>
+    <ClCompile Include="Part_three_menu.cpp">
+      <Filter>Исходные файлы\Part three</Filter>
+    </ClCompile>
+    <ClCompile Include="vow_check.cpp">
+      <Filter>Исходные файлы\Part three</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototypes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
