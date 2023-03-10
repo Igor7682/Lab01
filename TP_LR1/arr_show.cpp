@@ -1,7 +1,7 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
-void arr_show(double *arr, int size) //вывод массива
+void arr_show(double *arr, int size) //РІС‹РІРѕРґ РјР°СЃСЃРёРІР°
 {
 	for (int i = 0; i < size; i++)
 	{

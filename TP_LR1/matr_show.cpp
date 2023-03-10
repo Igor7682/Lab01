@@ -1,9 +1,9 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
 
-void  matr_show(int** matr, int line, int col) //вывод матрицы
+void  matr_show(int** matr, int line, int col) //РІС‹РІРѕРґ РјР°С‚СЂРёС†С‹
 {
 	for (int i = 0; i < line; i++)
 	{

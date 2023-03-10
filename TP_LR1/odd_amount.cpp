@@ -1,10 +1,10 @@
-
+п»ї
 
 #include "Header.h"
 
 
 
-int odd_amount( int size) //количество нечетных элементов
+int odd_amount( int size) //РєРѕР»РёС‡РµСЃС‚РІРѕ РЅРµС‡РµС‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
 {
 
 	int amount = 0; 

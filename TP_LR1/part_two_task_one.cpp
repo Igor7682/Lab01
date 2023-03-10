@@ -1,4 +1,4 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
@@ -6,7 +6,7 @@ void part_two_task_one(int** matr, int line, int col)
 {
 	if (matr_neg_check(matr, line, col)) 
 	{	
-		int* no_neg_lines = new int[line];	//коордиинаты строк без отриицателных элементов
+		int* no_neg_lines = new int[line];	//РєРѕРѕСЂРґРёРёРЅР°С‚С‹ СЃС‚СЂРѕРє Р±РµР· РѕС‚СЂРёРёС†Р°С‚РµР»РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
 		int n = 0;
 
 		for (int i = 0; i < line; i++)

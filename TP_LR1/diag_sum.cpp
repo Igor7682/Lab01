@@ -1,8 +1,8 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
-int diag_sum(int** matr, int size, int line, int col)	//сумма элеиентов в диагонали
+int diag_sum(int** matr, int size, int line, int col)	//СЃСѓРјРјР° СЌР»РµРёРµРЅС‚РѕРІ РІ РґРёР°РіРѕРЅР°Р»Рё
 {
 	int sum = 0;
 

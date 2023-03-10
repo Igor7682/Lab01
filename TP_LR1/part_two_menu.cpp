@@ -1,4 +1,4 @@
-
+п»ї
 #include "Header.h"
 
 
@@ -10,7 +10,7 @@ void part_two_menu()
 	const int max_col = 50;
 	int real_line = 0;
 	int real_col = 0;
-	char sym;	//символ введеный пользователем
+	char sym;	//СЃРёРјРІРѕР» РІРІРµРґРµРЅС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
 
 	int** matr = NULL;
 	matr = new int* [max_line];
@@ -22,7 +22,7 @@ void part_two_menu()
 
 	while (true) 
 	{
-		cout << endl << "Number of lines will be equal to the numberof columns!"; //ввод размеров
+		cout << endl << "Number of lines will be equal to the numberof columns!"; //РІРІРѕРґ СЂР°Р·РјРµСЂРѕРІ
 		cout << endl << "Enter number of lines and columns, no less then 3 and no more then " << max_line << "-> ";
 		cin >> real_line;
 		real_col = real_line;
@@ -31,7 +31,7 @@ void part_two_menu()
 		{
 			cout << endl << "Enter matrix elements:" << endl;
 
-			matr_ent(matr, real_line, real_col); //ввод  элементов матрицы
+			matr_ent(matr, real_line, real_col); //РІРІРѕРґ  СЌР»РµРјРµРЅС‚РѕРІ РјР°С‚СЂРёС†С‹
 
 			cout << endl << "Entered matrix:" << endl;
 
@@ -39,7 +39,7 @@ void part_two_menu()
 			cout << endl;
 			while (true) 
 			{
-				cout << "Choose task:" << endl   //выбор задачи
+				cout << "Choose task:" << endl   //РІС‹Р±РѕСЂ Р·Р°РґР°С‡Рё
 					<< "1)Calculate product of elements in those lines that do not contain negative elements. Determine the coordinates of such lines;" << endl
 					<< "2)Find maximum among the sums of the elements of the diagonals parallel to the main diagonal of the matrix." << endl
 					<< "3)All of the above tasks" << endl
@@ -53,7 +53,7 @@ void part_two_menu()
 				}
 				else
 				{
-					if (sym < '1' || sym > '4') //проверка номера задачи
+					if (sym < '1' || sym > '4') //РїСЂРѕРІРµСЂРєР° РЅРѕРјРµСЂР° Р·Р°РґР°С‡Рё
 					{
 						cout << "Incorrect number of task";
 					}
@@ -84,7 +84,7 @@ void part_two_menu()
 			cout << "Size is incorrect";
 		}
 
-		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // выход в главное меню
+		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // РІС‹С…РѕРґ РІ РіР»Р°РІРЅРѕРµ РјРµРЅСЋ
 		cin >> sym;
 		if (sym == 'E' || sym == 'e')
 		{

@@ -1,8 +1,8 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
-void matr_ent(int** matr, int line, int col) //ввод  матрицы
+void matr_ent(int** matr, int line, int col) //РІРІРѕРґ  РјР°С‚СЂРёС†С‹
 {
 	for (int i = 0; i < line; i++) 
 	{

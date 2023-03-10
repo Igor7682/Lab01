@@ -1,10 +1,10 @@
-
+п»ї
 #include "Header.h"
 
 
 
 
-void arr_ent(double* arr, int size) //ввод  массива
+void arr_ent(double* arr, int size) //РІРІРѕРґ  РјР°СЃСЃРёРІР°
 {
 	
 	cout << "Enter the array's elements:" << endl; 

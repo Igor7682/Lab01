@@ -1,4 +1,4 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
@@ -6,9 +6,9 @@ void part_three_menu()
 {
 	ifstream text;
 
-	char word[25];		//проверяемое слово
-	char file[100];		//путь к файлу
-	char  sym;			//метка для вывода сообщениия об оутствии нужных слов
+	char word[25];		//РїСЂРѕРІРµСЂСЏРµРјРѕРµ СЃР»РѕРІРѕ
+	char file[100];		//РїСѓС‚СЊ Рє С„Р°Р№Р»Сѓ
+	char  sym;			//РјРµС‚РєР° РґР»СЏ РІС‹РІРѕРґР° СЃРѕРѕР±С‰РµРЅРёРёСЏ РѕР± РѕСѓС‚СЃС‚РІРёРё РЅСѓР¶РЅС‹С… СЃР»РѕРІ
 	bool vow = false;
 	
 	cout << "This program find words, that begin with vowel letter" << endl;
@@ -58,7 +58,7 @@ void part_three_menu()
 		}
 		vow = false;
 
-		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // выход в главное меню
+		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // РІС‹С…РѕРґ РІ РіР»Р°РІРЅРѕРµ РјРµРЅСЋ
 		cin >> sym;
 		if (sym == 'E' || sym == 'e')
 		{

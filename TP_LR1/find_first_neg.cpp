@@ -1,7 +1,7 @@
-
+п»ї
 #include "Header.h"
 
-int find_first_neg(double* arr, int size) //первый отриательный элемент
+int find_first_neg(double* arr, int size) //РїРµСЂРІС‹Р№ РѕС‚СЂРёР°С‚РµР»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚
 {
 
 	for (int i = 0; i < size; i++) 

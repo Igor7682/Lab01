@@ -1,7 +1,7 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
-int line_prod(int* line, int size) //произведение элементов строки
+int line_prod(int* line, int size) //РїСЂРѕРёР·РІРµРґРµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ СЃС‚СЂРѕРєРё
 {
 	int rez = 1;
 

@@ -1,8 +1,8 @@
-
+ï»¿
 
 bool  size_check (int size)
 {
-	if (size > 50 || size < 4) //ïðîâåðêà ðàçìåðà
+	if (size > 50 || size < 4) //Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ° Ñ€Ð°Ð·Ð¼ÐµÑ€Ð°
 	{
 		return false;
 	}

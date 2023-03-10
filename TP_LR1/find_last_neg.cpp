@@ -1,10 +1,10 @@
-
+п»ї
 #include "Header.h"
 
 int find_last_neg(double* arr, int size)
 {
 
-	for (int i = size - 1; i > -1; i--)	//поледний отриательный элемент
+	for (int i = size - 1; i > -1; i--)	//РїРѕР»РµРґРЅРёР№ РѕС‚СЂРёР°С‚РµР»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚
 	{
 		if (arr[i] < 0) 
 		{

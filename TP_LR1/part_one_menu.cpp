@@ -1,4 +1,4 @@
-
+п»ї
 
 #include "header.h"
 #include "Prototypes.h"
@@ -10,10 +10,10 @@ void part_one_menu() {
 
 	const int max_size = 50; 
 	int real_size = 0;
-	char sym;  //символ введеный пользователем
+	char sym;  //СЃРёРјРІРѕР» РІРІРµРґРµРЅС‹Р№ РїРѕР»СЊР·РѕРІР°С‚РµР»РµРј
 	double* arr = NULL;
 	arr = new double[max_size];
-	double* comp_arr = NULL; //сжатый массив
+	double* comp_arr = NULL; //СЃР¶Р°С‚С‹Р№ РјР°СЃСЃРёРІ
 
 	while (true) 
 	{
@@ -21,18 +21,18 @@ void part_one_menu() {
 		
 		cin >> real_size;;
 
-		if (size_check(real_size)) //проверка размера
+		if (size_check(real_size)) //РїСЂРѕРІРµСЂРєР° СЂР°Р·РјРµСЂР°
 		{
-			arr_ent(arr, real_size); //ввод элементов массива
+			arr_ent(arr, real_size); //РІРІРѕРґ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°
 
 			cout << "Entered array:" << " ";
 
-			arr_show(arr, real_size); //вывод введенного массива
+			arr_show(arr, real_size); //РІС‹РІРѕРґ РІРІРµРґРµРЅРЅРѕРіРѕ РјР°СЃСЃРёРІР°
 			cout << endl;
 			
 			while (true)
 			{	
-				cout << endl << "Choose task:" << endl   //выбор задачи
+				cout << endl << "Choose task:" << endl   //РІС‹Р±РѕСЂ Р·Р°РґР°С‡Рё
 					<< "1)Find the  sum of array elements with odd numbers, determine their number and find their coordinates" << endl
 					<< "2)Find the sum of the array elements located between the first and last negative elements. Find the positions of the first and last negative elements between which the sum is found" << endl
 					<< "3)Compress an array by removing all elements from it whose modulus does not exceed 1" << endl
@@ -47,7 +47,7 @@ void part_one_menu() {
 				}
 				else
 				{
-					if (sym < '1' || sym > '4') //проверка номера задачи
+					if (sym < '1' || sym > '4') //РїСЂРѕРІРµСЂРєР° РЅРѕРјРµСЂР° Р·Р°РґР°С‡Рё
 					{
 						cout << "Incorrect number of task";
 					}
@@ -88,7 +88,7 @@ void part_one_menu() {
 			cout << "Size is incorrect";
 		}
 
-		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // выход в главное меню
+		cout << endl << "If you wish to quit, click 'E' or any other key to continue -> "; // РІС‹С…РѕРґ РІ РіР»Р°РІРЅРѕРµ РјРµРЅСЋ
 		
 		cin >> sym;
 

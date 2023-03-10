@@ -1,7 +1,7 @@
-
+п»ї
 #include "Header.h"
 
-double odd_sum(double *arr,int size) //сумма нечетных элементов
+double odd_sum(double *arr,int size) //СЃСѓРјРјР° РЅРµС‡РµС‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
 {
 	double sum = 0; 
 

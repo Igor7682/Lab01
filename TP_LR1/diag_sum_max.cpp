@@ -1,6 +1,6 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
-int diag_sum_max(int** matr, int size) //макимум средиии диагоналей
+int diag_sum_max(int** matr, int size) //РјР°РєРёРјСѓРј СЃСЂРµРґРёРёРё РґРёР°РіРѕРЅР°Р»РµР№
 {
 	int max_sum = 0;
 	int t = 0;

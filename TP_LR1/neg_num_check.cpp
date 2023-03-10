@@ -1,9 +1,9 @@
-
+п»ї
 #include "Header.h"
 
 
 
-bool neg_num_check(int first, int last) //проверка на отрицательные элементы
+bool neg_num_check(int first, int last) //РїСЂРѕРІРµСЂРєР° РЅР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹
 {
 
 	if (last - first < 3)

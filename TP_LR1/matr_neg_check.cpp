@@ -1,8 +1,8 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
 
-bool matr_neg_check(int** matr, int line, int col) //проверка мматриы на отриательные элементы
+bool matr_neg_check(int** matr, int line, int col) //РїСЂРѕРІРµСЂРєР° РјРјР°С‚СЂРёС‹ РЅР° РѕС‚СЂРёР°С‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹
 {
 	for (int i = 0; i < line; i++)
 	{

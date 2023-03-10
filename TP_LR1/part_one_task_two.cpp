@@ -1,4 +1,4 @@
-
+п»ї
 
 
 #include "Header.h"
@@ -16,7 +16,7 @@ void part_one_task_two(double* arr, int size)
 	last = find_last_neg(arr, size);
 
 
-	if (neg_num_check(first, last) == true) //  проверка количества и расположения отрицательных элементов
+	if (neg_num_check(first, last) == true) //  РїСЂРѕРІРµСЂРєР° РєРѕР»РёС‡РµСЃС‚РІР° Рё СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ
 	{
 		sum = sum_btw_neg(arr, size);
 

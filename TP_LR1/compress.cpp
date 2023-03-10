@@ -1,7 +1,7 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
-double* compress(double* arr, int size) //сжатие масива
+double* compress(double* arr, int size) //СЃР¶Р°С‚РёРµ РјР°СЃРёРІР°
 {
 	double* pCompresArr = new double[size];
 

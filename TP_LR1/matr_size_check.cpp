@@ -1,7 +1,7 @@
-#include "Header.h"
+п»ї#include "Header.h"
 
 
-bool matr_size_check(int line, int col) //проверка размера
+bool matr_size_check(int line, int col) //РїСЂРѕРІРµСЂРєР° СЂР°Р·РјРµСЂР°
 {
 	if (line != col) 
 	{
